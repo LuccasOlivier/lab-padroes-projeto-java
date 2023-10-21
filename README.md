@@ -1,6 +1,6 @@
-# Demonstração de Padrões de Projetos em Ambiente Java
+# Demonstração de alguns Padrões de Projetos em Ambiente Java
 
-Este projeto demonstra a aplicação de Padrões de Projetos em Java, destacando os principais componentes e seu funcionamento. 
+Este projeto demonstra a aplicação de alguns Padrões de Projetos em Java, destacando os principais componentes e seu funcionamento. 
 
 ## Singleton Pattern
 Implementamos o padrão Singleton com três variações:
