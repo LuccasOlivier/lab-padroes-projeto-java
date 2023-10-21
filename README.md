@@ -1,18 +1,29 @@
-## Getting Started
+# Demonstração de Padrões de Projetos em Ambiente Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto demonstra a aplicação de Padrões de Projetos em Java, destacando os principais componentes e seu funcionamento. 
 
-## Folder Structure
+## Singleton Pattern
+Implementamos o padrão Singleton com três variações:
+- **SingletonLazy:** Cria a instância apenas quando necessário.
+- **SingletonEager:** Cria a instância imediatamente na inicialização.
+- **SingletonLazyHolder:** Usa uma classe interna para inicialização segura e eficiente.
 
-The workspace contains two folders by default, where:
+## Strategy Pattern
+Utilizamos o padrão Strategy para definir estratégias de movimento, incluindo:
+- **ComportamentoAgressivo:** Movimento agressivo.
+- **ComportamentoDefensivo:** Movimento defensivo.
+- **ComportamentoNormal:** Movimento normal. A classe Robô pode alterar o comportamento dinamicamente.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Facade Pattern
+Implementamos o padrão Facade para simplificar a interação com subsistemas complexos. A classe Facade coordena a migração de clientes, utilizando CepApi e CrmService.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Novos Comportamentos de Salto
+Introduzimos três comportamentos de salto:
+- **ComportamentoDefensivoComSalto:** Combina movimento defensivo com um salto específico.
+- **ComportamentoNormalComSalto:** Combina movimento normal com um salto específico.
+- **ComportamentoAgressivoComSalto:** Combina movimento agressivo com um salto específico. Esses comportamentos de salto seguem o padrão Strategy, permitindo escolhas dinâmicas.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Testes Abrangentes
+Na classe de teste, adicionamos casos de teste para validar os novos comportamentos de salto e os comportamentos existentes. Isso destaca como os Padrões de Projetos em Ambiente Java facilitam a expansão do sistema de forma flexível e modular.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Esta descrição apresenta os componentes do projeto e enfatiza a aplicação dos Padrões de Projetos em Ambiente Java, ressaltando os benefícios para o desenvolvimento em Java.
