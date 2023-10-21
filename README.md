@@ -25,5 +25,3 @@ Introduzimos três comportamentos de salto:
 
 ## Testes Abrangentes
 Na classe de teste, adicionamos casos de teste para validar os novos comportamentos de salto e os comportamentos existentes. Isso destaca como os Padrões de Projetos em Ambiente Java facilitam a expansão do sistema de forma flexível e modular.
-
-Esta descrição apresenta os componentes do projeto e enfatiza a aplicação dos Padrões de Projetos em Ambiente Java, ressaltando os benefícios para o desenvolvimento em Java.
